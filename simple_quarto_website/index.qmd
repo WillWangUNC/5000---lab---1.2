@@ -1,0 +1,75 @@
+---
+title: "simple_quarto_website"
+---
+
+This is a Quarto website.
+
+To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+
+
+# First Paragraph
+Lorem ipsum odor amet, consectetuer adipiscing elit. Nullam facilisis risus et; sodales lacus in. Dis eu lorem vehicula felis dui lacinia elit tellus et. Curae rutrum mollis purus dolor luctus fusce scelerisque. Dolor aliquet a feugiat sodales cubilia convallis nulla nisl nulla. Amet nisl mollis inceptos tempus risus. Morbi lobortis porta; litora condimentum sit porta. Mi et vel interdum rutrum aenean tellus laoreet. Commodo sit proin malesuada vulputate efficitur habitant tellus nisl. Vestibulum sem semper erat penatibus massa.
+
+## Second paragraph
+Varius nulla ante vel facilisis litora sem molestie potenti sit. Est auctor vulputate eget integer vitae. Penatibus a egestas litora a sit molestie. Dis egestas torquent porta tellus gravida tempus ante. Magnis suscipit facilisis montes nibh massa, interdum potenti. Pellentesque natoque lacus augue porta id accumsan. Ultricies cubilia himenaeos rutrum eleifend felis habitasse fringilla. Fusce et dictum dolor etiam orci. Potenti potenti elementum euismod nullam laoreet egestas scelerisque ligula.
+
+### Third Paragraph
+Nec quam pellentesque pretium blandit laoreet fringilla. Class aliquet consectetur facilisi non suspendisse, proin primis. Fermentum a semper feugiat quis efficitur scelerisque. Ornare cras ac molestie, netus ridiculus class efficitur. Tortor scelerisque nisl laoreet hendrerit interdum. Apurus curae volutpat vestibulum nec tortor sit. Mi sem fringilla pretium sapien nisl proin malesuada. Ante et cursus placerat torquent netus rutrum fringilla parturient quis? Habitant blandit tempus ridiculus, magna posuere pharetra. Hac nascetur netus tempus porta lectus lacus felis.
+
+::: {layout-ncol=2}
+### List One
+
+- Item A
+- Item B
+- Item C
+
+### List Two
+
+- Item X
+- Item Y
+- Item Z
+:::
+
+* This is an example of a bulleted list with math 
+* Here is an in-line math equation $f(x)=\frac{e^{x^2}}{2}$
+
+$$g(x)=x^n \rightarrow \frac{\partial g}{\partial x}=n x^{n-1}$$
+
+* Make sure there is a table of contents on the pag
+
+| Column 1 | Column 2 | Column 3 |
+|----------|----------|----------|
+| Data A   | Data B  | Data C  |
+| Data A   | Data B   | Data C   |
+
+* Add at least one non inline-math LaTex equation `$$  $$`
+$$E = mc^{2}$$
+
+> "The greatest glory in living lies not in never falling, but in rising every time we fall." -Nelson Mandela
+
+Include a least one foot-note in the file `[^1]` [^1].
+
+### Image 1: First picture of Healy Hall
+![Picture 1](./images/gtown1.jpg)
+
+### Image 2: Second picture of Healy Hall
+![Picture 2](./images/gtown2.jpg)
+
+
+### Embedding video
+{{< video https://youtu.be/Z8t4k0Q8e8Y width="800" height="500" >}}
+
+```{mermaid}
+%%| fig-cap: "A Mermaid diagram"
+%%| code-fold: false
+flowchart LR
+  A[Hard edge] --> B(Round edge)
+  B --> C{Decision}
+  C --> D[Result one]
+  C --> E[Result two]
+```
+
+## Include at least one instance of the citations from your `.bib` file
+[@sammut2011encyclopedia] 
+
+[^1]: Here is the footnote.

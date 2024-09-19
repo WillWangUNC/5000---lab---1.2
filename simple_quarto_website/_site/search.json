@@ -1,0 +1,65 @@
+[
+  {
+    "objectID": "slides/slides.html#citation-slide",
+    "href": "slides/slides.html#citation-slide",
+    "title": "About",
+    "section": "Citation Slide",
+    "text": "Citation Slide\n(Sammut and Webb 2011)"
+  },
+  {
+    "objectID": "slides/slides.html#images-slide",
+    "href": "slides/slides.html#images-slide",
+    "title": "About",
+    "section": "Images Slide",
+    "text": "Images Slide\n\n\n\nImage 1\n\n\n\n\n\nImage 2"
+  },
+  {
+    "objectID": "slides/slides.html#add-at-least-one-python-code-cell-using-code-folding-with-the-output-plot-shown-in-the-slide-deck",
+    "href": "slides/slides.html#add-at-least-one-python-code-cell-using-code-folding-with-the-output-plot-shown-in-the-slide-deck",
+    "title": "About",
+    "section": "Add at least one python code cell, Using code-folding with the output plot shown in the slide deck",
+    "text": "Add at least one python code cell, Using code-folding with the output plot shown in the slide deck\n\n\nCode\nimport numpy as np\nimport matplotlib.pyplot as plt\nr = np.arange(0, 2, 0.01)\ntheta = 2 * np.pi * r\nfig, ax = plt.subplots(subplot_kw={'projection': 'polar'})\nax.plot(theta, r)\nax.set_rticks([0.5, 1, 1.5, 2])\nax.grid(True)\nplt.show()\n\n\n\n\n\n\n\n\n\nSammut, Claude, and Geoffrey I Webb. 2011. Encyclopedia of Machine Learning. Springer Science & Business Media."
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "Commodo nostra pulvinar massa non metus malesuada. Quam iaculis venenatis pellentesque hac; phasellus pretium mattis. Magnis porta aptent, aenean tellus molestie mauris facilisis phasellus. Suscipit nulla neque nunc; lectus vehicula mattis libero. Ridiculus ullamcorper efficitur elementum mattis aptent duis. Quam nostra eu congue curabitur justo. Consectetur est in tempor blandit iaculis mauris dignissim velit.\nAliquet neque luctus augue ac nec; hendrerit ad rutrum. Sagittis lorem vel placerat laoreet; phasellus libero laoreet dapibus. Curabitur vehicula vel amet aenean senectus ridiculus habitant scelerisque ut. Dictum in habitasse tristique morbi ultricies ridiculus ornare condimentum. Magna risus mollis senectus libero ipsum facilisi egestas. Dolor inceptos ex euismod morbi nec ipsum sodales convallis. Nisi est nisi fames aliquet aenean sagittis.\n\n\nImperdiet accumsan convallis ipsum; fusce montes etiam. Facilisi iaculis dignissim donec facilisi molestie. Ipsum pharetra non commodo pulvinar porta tellus ligula ullamcorper aenean. Duis posuere lacinia penatibus at sed bibendum ultrices lacus taciti. Facilisis at finibus litora maecenas mollis per praesent. Commodo consectetur sem cursus porta sagittis felis parturient porta nulla. Fames in ac aliquet morbi volutpat sagittis. Porttitor fermentum feugiat ligula integer fermentum laoreet massa posuere. Maecenas semper nisi nibh parturient pellentesque ut bibendum quisque.\n\n\nLorem ipsum odor amet, consectetuer adipiscing elit. Integer pellentesque finibus class montes ultrices lacinia pellentesque nullam venenatis. Mauris turpis pellentesque scelerisque quisque natoque. Etiam bibendum ullamcorper curabitur posuere pharetra dictumst inceptos montes posuere. Lacus risus bibendum in dignissim varius aliquam nec. Maecenas placerat turpis est montes turpis ex himenaeos erat sapien. Sollicitudin fames molestie luctus felis commodo sem sagittis. Class eleifend vulputate hendrerit amet inceptos enim.\n\nimport numpy as np\nimport matplotlib.pyplot as plt\n# evenly sampled time at 200ms intervals\nt = np.arange(0., 5., 0.2)\n\n# red dashes, blue squares and green triangles\nplt.plot(t, t, 'r--', t, t**2, 'bs', t, t**3, 'g^')\nplt.show()"
+  },
+  {
+    "objectID": "about.html#h2",
+    "href": "about.html#h2",
+    "title": "About",
+    "section": "",
+    "text": "Imperdiet accumsan convallis ipsum; fusce montes etiam. Facilisi iaculis dignissim donec facilisi molestie. Ipsum pharetra non commodo pulvinar porta tellus ligula ullamcorper aenean. Duis posuere lacinia penatibus at sed bibendum ultrices lacus taciti. Facilisis at finibus litora maecenas mollis per praesent. Commodo consectetur sem cursus porta sagittis felis parturient porta nulla. Fames in ac aliquet morbi volutpat sagittis. Porttitor fermentum feugiat ligula integer fermentum laoreet massa posuere. Maecenas semper nisi nibh parturient pellentesque ut bibendum quisque.\n\n\nLorem ipsum odor amet, consectetuer adipiscing elit. Integer pellentesque finibus class montes ultrices lacinia pellentesque nullam venenatis. Mauris turpis pellentesque scelerisque quisque natoque. Etiam bibendum ullamcorper curabitur posuere pharetra dictumst inceptos montes posuere. Lacus risus bibendum in dignissim varius aliquam nec. Maecenas placerat turpis est montes turpis ex himenaeos erat sapien. Sollicitudin fames molestie luctus felis commodo sem sagittis. Class eleifend vulputate hendrerit amet inceptos enim.\n\nimport numpy as np\nimport matplotlib.pyplot as plt\n# evenly sampled time at 200ms intervals\nt = np.arange(0., 5., 0.2)\n\n# red dashes, blue squares and green triangles\nplt.plot(t, t, 'r--', t, t**2, 'bs', t, t**3, 'g^')\nplt.show()"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "simple_quarto_website",
+    "section": "",
+    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites."
+  },
+  {
+    "objectID": "index.html#second-paragraph",
+    "href": "index.html#second-paragraph",
+    "title": "simple_quarto_website",
+    "section": "Second paragraph",
+    "text": "Second paragraph\nVarius nulla ante vel facilisis litora sem molestie potenti sit. Est auctor vulputate eget integer vitae. Penatibus a egestas litora a sit molestie. Dis egestas torquent porta tellus gravida tempus ante. Magnis suscipit facilisis montes nibh massa, interdum potenti. Pellentesque natoque lacus augue porta id accumsan. Ultricies cubilia himenaeos rutrum eleifend felis habitasse fringilla. Fusce et dictum dolor etiam orci. Potenti potenti elementum euismod nullam laoreet egestas scelerisque ligula.\n\nThird Paragraph\nNec quam pellentesque pretium blandit laoreet fringilla. Class aliquet consectetur facilisi non suspendisse, proin primis. Fermentum a semper feugiat quis efficitur scelerisque. Ornare cras ac molestie, netus ridiculus class efficitur. Tortor scelerisque nisl laoreet hendrerit interdum. Apurus curae volutpat vestibulum nec tortor sit. Mi sem fringilla pretium sapien nisl proin malesuada. Ante et cursus placerat torquent netus rutrum fringilla parturient quis? Habitant blandit tempus ridiculus, magna posuere pharetra. Hac nascetur netus tempus porta lectus lacus felis.\n\n\n\n\nList One\n\nItem A\nItem B\nItem C\n\n\n\nList Two\n\nItem X\nItem Y\nItem Z\n\n\n\n\n\nThis is an example of a bulleted list with math\nHere is an in-line math equation \\(f(x)=\\frac{e^{x^2}}{2}\\)\n\n\\[g(x)=x^n \\rightarrow \\frac{\\partial g}{\\partial x}=n x^{n-1}\\]\n\nMake sure there is a table of contents on the pag\n\n\n\n\nColumn 1\nColumn 2\nColumn 3\n\n\n\n\nData A\nData B\nData C\n\n\nData A\nData B\nData C\n\n\n\n\nAdd at least one non inline-math LaTex equation $$  $$ \\[E = mc^{2}\\]\n\n\n“The greatest glory in living lies not in never falling, but in rising every time we fall.” -Nelson Mandela\n\nInclude a least one foot-note in the file [^1] 1.\n\nImage 1: First picture of Healy Hall\n\n\n\nPicture 1\n\n\n\n\nImage 2: Second picture of Healy Hall\n\n\n\nPicture 2\n\n\n\n\nEmbedding video\n\n\n\n\n\nflowchart LR\n  A[Hard edge] --&gt; B(Round edge)\n  B --&gt; C{Decision}\n  C --&gt; D[Result one]\n  C --&gt; E[Result two]\n\n\nA Mermaid diagram"
+  },
+  {
+    "objectID": "index.html#include-at-least-one-instance-of-the-citations-from-your-.bib-file",
+    "href": "index.html#include-at-least-one-instance-of-the-citations-from-your-.bib-file",
+    "title": "simple_quarto_website",
+    "section": "Include at least one instance of the citations from your .bib file",
+    "text": "Include at least one instance of the citations from your .bib file\n(Sammut and Webb 2011)"
+  },
+  {
+    "objectID": "index.html#footnotes",
+    "href": "index.html#footnotes",
+    "title": "simple_quarto_website",
+    "section": "Footnotes",
+    "text": "Footnotes\n\n\nHere is the footnote.↩︎"
+  }
+]
